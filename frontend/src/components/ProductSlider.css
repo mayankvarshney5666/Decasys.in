@@ -1,0 +1,29 @@
+.mdbcard {
+    /* border: 1px solid lightblue; */
+    /* height: 105%; */
+    margin: 3% 5% !important;
+}
+
+/* .bg-image .img-center {
+    object-fit: contain;
+    min-height: 50px;
+    image-resolution: 100px 100px;
+} */
+
+
+.text-small-muted {
+    font-size: 17px;
+
+}
+
+.item-price {
+    margin-top: -20px;
+}
+
+.recommended,
+.special-picked {
+    margin-top: 80px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
