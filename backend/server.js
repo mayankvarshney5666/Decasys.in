@@ -6,16 +6,13 @@ const cors = require('cors');
 
 const app = express();
 
-// Middlewares
 app.use(cors());
 app.use(bodyParser.json());
 
-// Connection to MongoDB
 mongoose.connect('mongodb://127.0.0.1:27017/contactDB', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
 
-// Routes
 app.use('/api/contact', contactRoutes);
 
 // app.get('/', (req, res) => {

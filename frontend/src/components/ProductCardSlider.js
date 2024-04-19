@@ -23,7 +23,7 @@ const ProductCardSlider = () => {
                 <Carousel.Item>
                     <MDBCard alignment='center' className='mdbcard'>
                         <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-zoom '>
-                            <MDBCardImage src='https://www.backend.decasys.in/1710493367771-1.jpg' alignment='center' className='w-50 img-center p-2' fluid alt='...' />
+                            <MDBCardImage src='https://www.backend.decasys.in/1710493367771-1.jpg' className='w-50 img-center p-2' fluid alt='...' />
                             <a>
                                 <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
                             </a>
@@ -35,7 +35,9 @@ const ProductCardSlider = () => {
 
                                 <p className="d-flex flex-row justify-content-center  mt-3 text-warning">
                                     <i className="fas fa-star" aria-hidden="true"></i>
-                                    <i className="fas fa-star" aria-hidden="true"></i><i className="fas fa-star" aria-hidden="true"></i><i className="fas fa-star" aria-hidden="true">
+                                    <i className="fas fa-star" aria-hidden="true"></i>
+                                    <i className="fas fa-star" aria-hidden="true"></i>
+                                    <i className="fas fa-star" aria-hidden="true">
 
                                     </i>(4.0)
                                 </p>

@@ -124,9 +124,9 @@ const Navbar = () => {
                                             Brand
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu>
-                                            <MDBDropdownItem link>Celtic sea salt
+                                            <MDBDropdownItem href='/brand/celtic-sea-salt' link>Celtic sea salt
                                             </MDBDropdownItem>
-                                            <MDBDropdownItem link>
+                                            <MDBDropdownItem link href='/brand/le%20Guerandais%20sea%20salt'>
                                                 le Guerandais sea salt
                                             </MDBDropdownItem>
                                         </MDBDropdownMenu>
@@ -135,10 +135,9 @@ const Navbar = () => {
 
 
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='#' className='active'>Help</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contact-us' className='active'>Contact Us</MDBNavbarLink>
+                                    <MDBNavbarLink href='/contact-us' className='active'>
+                                        Help
+                                    </MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
 

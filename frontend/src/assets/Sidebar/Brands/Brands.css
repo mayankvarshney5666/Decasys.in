@@ -1,0 +1,21 @@
+.color-title {
+  margin-top: 2rem;
+}
+
+.brands {
+  margin-left: 25px;
+}
+
+@media (min-width: 790px) and (max-width:900px) {
+  .brands-choice {
+    margin-left: -30px;
+  }
+
+  .brands {
+    margin-left: 15px;
+  }
+}
+
+.brands-choice {
+  margin-left: 25px;
+}

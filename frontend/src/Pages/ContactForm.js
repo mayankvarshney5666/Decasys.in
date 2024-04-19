@@ -128,7 +128,7 @@ const ContactForm = () => {
 
             <div className="map-part">
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.8730521274147!2d77.33259960946769!3d28.60358497557915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51dad100197%3A0xd970d860d175f2!2sC5%2F83%2C%20New%20Kondli%20Rd%2C%20Pocket%20C%203%2C%20New%20Kondli%2C%20Kondli%2C%20New%20Delhi%2C%20Delhi%2C%20110096!5e0!3m2!1sen!2sin!4v1712393058991!5m2!1sen!2sin" width="1100" height="400" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title='contact-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.8730521274147!2d77.33259960946769!3d28.60358497557915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51dad100197%3A0xd970d860d175f2!2sC5%2F83%2C%20New%20Kondli%20Rd%2C%20Pocket%20C%203%2C%20New%20Kondli%2C%20Kondli%2C%20New%20Delhi%2C%20Delhi%2C%20110096!5e0!3m2!1sen!2sin!4v1712393058991!5m2!1sen!2sin" width="1100" height="400" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
         </>

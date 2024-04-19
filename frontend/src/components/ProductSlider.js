@@ -15,8 +15,6 @@ const ProductSlider = () => {
                 <ProductCardSlider />
             </div >
         </>
-
     )
-
 }
 export default ProductSlider

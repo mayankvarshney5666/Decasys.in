@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Contact = require('../model/contactModel');
 
-// Saving a new contact in DB
 router.post('/', async (req, res) => {
     try {
         const { name, email, phoneNumber, message } = req.body;

@@ -1,8 +1,8 @@
 import React from "react";
-import './Styles.css';
-import Carousel from "./Carousel";
+import Carousel from "../components/Carousel";
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
-import ProductSlider from "./ProductSlider";
+import ProductSlider from "../components/ProductSlider";
+import '../components/Styles.css';
 
 const HomePage = () => {
     return (
